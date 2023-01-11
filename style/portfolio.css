@@ -5,7 +5,7 @@
 .header{
     background:#FFF8F3;
     background-image:url('../images/header_bg.png'), url(../images/developer.png);
-    padding-bottom: 50px;
+    
     background-repeat: no-repeat;
     background-position:bottom right,left;
 
@@ -85,30 +85,19 @@ margin-bottom: 25px;
 
 
 
-.b
+.
 /* main saction */
 main{
-    max-width: 1140px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
-/* about section */
+/* about section style*/
 .about{
-margin-top: 130px;
-background-color: #FFF8F3;
-border-radius: 10px;
-padding:130px 150px;
-
-text-align: center;
-}
-.section-title{
-
-    margin-bottom: 30px;
     text-align: center;
-
-}
-.section-description{
-    color: #757575;
-    font-size: 18px;
-    margin-bottom: 30px;
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 50px 50px;
 
 
 }
@@ -116,15 +105,26 @@ text-align: center;
     display: flex;
     justify-content: space-around;
 }
-.info-title{
+.about .info-title{
     font-size: 20px;
-    color: #757575;
-
 }
-.imfo-description{
+.about .info-description{
     font-weight: 700;
     font-size: 20px;
+
+    color:#474747
+}
+.section-title{
+    
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.section-description{
     color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
 
 }
 /* what i do */
