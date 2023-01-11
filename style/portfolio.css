@@ -2,16 +2,39 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
+.header{
+    background:#FFF8F3;
+    background-image:url('../images/header_bg.png'), url(../images/developer.png);
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position:bottom right,left;
+
+}
 
 /* header and navigation style */
-nav {
+
+nav{
     display: flex;
     justify-content: space-between;
-    margin: 100px,200px;
+    margin: 50px 200px
 }
-.nav-title {
-    font-weight: 400;
-    font-size: 18px;
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.text-primary{
+    color: orange;
+}
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    color: aliceblue;
+    height: 64px;
+    font-weight:700;
+    font-size: 20px;
+    background: orange;
+    border: 0;
+    padding: 18px 35px;
 }
 nav ul{
     display: flex;
@@ -20,53 +43,49 @@ nav ul{
 nav li{
     list-style: none;
     margin-left: 50px;
+
 }
-.text-primary{
-    color: orange;
-}
-.btn-primary{
-    height: 64px;
-    border-radius: 5px;
-    background-color: orange;
-    border:0px;
-}
+
 
 /* banner style */
 .banner{
-    margin: 0 200px;
     display: flex;
+    margin:0px 200px;
     align-items: center;
 }
 .banner-title{
     font-weight: 700;
-    font-size: 85px;
-    margin-bottom: 5px;
+font-size: 85px;
+
 
 }
 .banner-sub-title{
-    font-weight: 600;
-    font-size: 85px;
-    margin: 20px;
+
+font-weight: 600;
+font-size: 45px;
+margin-bottom: 10px;
 }
-.banner-description{
-    color: gray;
+.banner .description{
     
-    margin-bottom: 15px;
+font-size: 18px;
+color: #757575;
+margin-bottom: 25px;
+
 
 }
-.btn-primary{
-    border-radius: 5px;
-
+.btn-primary2{
+    color: orangered;
 }
-.header{
 
-background: #FFF8F3;
-background-image: url('../images/header_bg.png'), url('../images/developer.png');
-background-repeat: no-repeat;
-background-position: bottom right , left;
 
-  
-}
+
+
+
+
+
+
+
+.b
 /* main saction */
 main{
     max-width: 1140px;
@@ -139,14 +158,19 @@ text-align: center;
 
 .resume-contant{
     display: flex;
+   
+
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .resume .title{
     font-weight: 700;
     font-size: 25px;
-    color: #474747;
+    color: #474747
 
 }
-
 .resume .sub-title{
     color: #757575;
     font-weight: 600;
@@ -155,4 +179,5 @@ text-align: center;
 }
 .resume .description{
     color: #757575;
+
 }
