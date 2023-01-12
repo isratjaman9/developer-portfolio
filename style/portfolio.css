@@ -73,19 +73,8 @@ margin-bottom: 25px;
 
 
 }
-.btn-primary2{
-    color: orangered;
-}
 
 
-
-
-
-
-
-
-
-.
 /* main saction */
 main{
     max-width: 1000px;
@@ -115,8 +104,8 @@ main{
     color:#474747
 }
 .section-title{
-    
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 
@@ -127,9 +116,10 @@ main{
     margin-bottom: 30px;
 
 }
-/* what i do */
+/* what i do style */
 .what-i-do{
     margin-top: 130px;
+    text-align: center;
 }
 .skills{
     background: #FFF8F3;
@@ -155,29 +145,41 @@ main{
 
 }
 /* resume-contant */
-
-.resume-contant{
-    display: flex;
-   
-
+.selection-title{
+    text-align: center;
 }
-.resume-item{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .resume-title{
+
 }
 .resume .title{
-    font-weight: 700;
-    font-size: 25px;
-    color: #474747
-
-}
-.resume .sub-title{
-    color: #757575;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
-.resume .description{
+
+.resume .resume-sub-title{
+    color: #757575; 
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.resume  .description{
     color: #757575;
 
 }
+
+
