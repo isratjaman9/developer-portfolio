@@ -1,15 +1,8 @@
 
-*{
+*{ margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.header{
-    background:#FFF8F3;
-    background-image:url('../images/header_bg.png'), url(../images/developer.png);
-    
-    background-repeat: no-repeat;
-    background-position:bottom right,left;
 
-}
 
 /* header and navigation style */
 
@@ -36,6 +29,15 @@ nav{
     border: 0;
     padding: 18px 35px;
     
+}  
+
+.header{
+    background:#FFF8F3;
+    background-image:url('../images/header_bg.png'), url('../images/developer.png');
+    
+    background-repeat: no-repeat;
+    background-position:bottom right, left;
+
 }
 nav ul{
     display: flex;
@@ -43,7 +45,7 @@ nav ul{
 }
 nav li{
     list-style: none;
-    margin-left: 50px;
+    margin-right:  60px;
 
 }
 
@@ -64,13 +66,13 @@ font-size: 85px;
 
 font-weight: 600;
 font-size: 45px;
-margin-bottom: 10px;
+margin-bottom: 20px;
 }
 .banner .description{
     
 font-size: 18px;
 color: #757575;
-margin-bottom: 25px;
+margin-bottom: 30px;
 
 
 }
